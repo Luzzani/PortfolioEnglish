@@ -27,25 +27,18 @@ const Nav = () => {
         <FaRegUser />
       </a>
       <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
       >
         <BsBook />
-      </a>
-      <a
-        href="#services"
-        onClick={() => setActiveNav("#service")}
-        className={activeNav === "#service" ? "active" : ""}
-      >
-        <RiServiceLine />
       </a>
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
         className={activeNav === "#contact" ? "active" : ""}
       >
-        <RiContactsLine />
+      <RiContactsLine />
       </a>
     </nav>
   );

@@ -1,3 +1,7 @@
+#portfolio > h5 {
+    padding-top: 8rem;
+}
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -35,10 +39,15 @@
 /* ------------- MEDIA QUERIES (MEDIUM DEVICES) ------------- */
 
 @media screen and (max-width: 1024px) {
+    #portfolio > h5 {
+        padding-top: 0;
+    }
+
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
         gap: 1.5rem;
     }
+    
 }
 
 /* ------------- MEDIA QUERIES (SMALL DEVICES) ------------- */

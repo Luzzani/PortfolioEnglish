@@ -21,7 +21,7 @@ const Portfolio = () => {
             <a
               href="https://github.com/Luzzani/PortfolioEn"
               className="btn btn-primary"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Live Demo
             </a>
@@ -39,7 +39,7 @@ const Portfolio = () => {
             <a
               href="https://github.com/Luzzani/PortfolioEn"
               className="btn btn-primary"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Live Demo
             </a>
@@ -57,62 +57,7 @@ const Portfolio = () => {
             <a
               href="https://github.com/Luzzani/PortfolioEn"
               className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="foto de prueba" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Luzzani" className="btn">
-              Github
-            </a>
-            <a
-              href="https://github.com/Luzzani/PortfolioEn"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-      
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="foto de prueba" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Luzzani" className="btn">
-              Github
-            </a>
-            <a
-              href="https://github.com/Luzzani/PortfolioEn"
-              className="btn btn-primary"
-              target="_blank"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="foto de prueba" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com/Luzzani" className="btn">
-              Github
-            </a>
-            <a
-              href="https://github.com/Luzzani/PortfolioEn"
-              className="btn btn-primary"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               Live Demo
             </a>
